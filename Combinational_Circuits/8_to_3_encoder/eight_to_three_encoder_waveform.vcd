@@ -1,0 +1,66 @@
+$date
+	Mon Apr 01 11:57:54 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module eight_to_three_encoder_testbench $end
+$var wire 3 ! dout [2:0] $end
+$var reg 8 " din [7:0] $end
+$scope module dut $end
+$var wire 8 # din [7:0] $end
+$var reg 3 $ dout [2:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx $
+bx #
+bx "
+bx !
+$end
+#100
+b0 !
+b0 $
+b10000000 "
+b10000000 #
+#200
+b1 !
+b1 $
+b1000000 "
+b1000000 #
+#300
+b10 !
+b10 $
+b100000 "
+b100000 #
+#400
+b11 !
+b11 $
+b10000 "
+b10000 #
+#500
+b100 !
+b100 $
+b1000 "
+b1000 #
+#600
+b101 !
+b101 $
+b100 "
+b100 #
+#700
+b110 !
+b110 $
+b10 "
+b10 #
+#800
+b111 !
+b111 $
+b1 "
+b1 #
+#1000

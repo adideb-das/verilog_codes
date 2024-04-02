@@ -1,0 +1,50 @@
+$date
+	Mon Mar 25 11:38:11 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module four_to_two_encoder_testbench $end
+$var wire 1 ! y $end
+$var wire 1 " x $end
+$var reg 1 # a $end
+$var reg 1 $ b $end
+$var reg 1 % c $end
+$var reg 1 & d $end
+$scope module dut $end
+$var wire 1 # a $end
+$var wire 1 $ b $end
+$var wire 1 % c $end
+$var wire 1 & d $end
+$var wire 1 " x $end
+$var wire 1 ! y $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+1&
+0%
+0$
+0#
+0"
+1!
+$end
+#100
+0!
+1"
+0&
+1%
+#200
+1!
+0%
+1$
+#300
+0"
+0!
+0$
+1#
+#500

@@ -1,0 +1,121 @@
+$date
+	Tue Apr 02 21:33:48 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module three_to_eight_decoder_testbench $end
+$var wire 1 ! d7 $end
+$var wire 1 " d6 $end
+$var wire 1 # d5 $end
+$var wire 1 $ d4 $end
+$var wire 1 % d3 $end
+$var wire 1 & d2 $end
+$var wire 1 ' d1 $end
+$var wire 1 ( d0 $end
+$var reg 1 ) a0 $end
+$var reg 1 * a1 $end
+$var reg 1 + a2 $end
+$var reg 1 , enable $end
+$scope module dut $end
+$var wire 1 ) a0 $end
+$var wire 1 * a1 $end
+$var wire 1 - a2 $end
+$var wire 1 , enable $end
+$var wire 1 ! d7 $end
+$var wire 1 " d6 $end
+$var wire 1 # d5 $end
+$var wire 1 $ d4 $end
+$var wire 1 % d3 $end
+$var wire 1 & d2 $end
+$var wire 1 ' d1 $end
+$var wire 1 ( d0 $end
+$scope module dec1 $end
+$var wire 1 ) a0 $end
+$var wire 1 * a1 $end
+$var wire 1 ( d0 $end
+$var wire 1 ' d1 $end
+$var wire 1 & d2 $end
+$var wire 1 % d3 $end
+$var wire 1 , en $end
+$upscope $end
+$scope module dec2 $end
+$var wire 1 ) a0 $end
+$var wire 1 * a1 $end
+$var wire 1 $ d0 $end
+$var wire 1 # d1 $end
+$var wire 1 " d2 $end
+$var wire 1 ! d3 $end
+$var wire 1 - en $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+x-
+0,
+x+
+x*
+x)
+0(
+0'
+0&
+0%
+x$
+x#
+x"
+x!
+$end
+#10
+0#
+0"
+0!
+0*
+0)
+#20
+0$
+x#
+1*
+#30
+x"
+0#
+0*
+1)
+#40
+0"
+x!
+0&
+1%
+1,
+1*
+#50
+1(
+x$
+0%
+0!
+0*
+0)
+#60
+0(
+0$
+1'
+x#
+1*
+#70
+1&
+x"
+0'
+0#
+0*
+1)
+#80
+0&
+0"
+1%
+x!
+1*
+#90
